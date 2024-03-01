@@ -1,5 +1,6 @@
 import reflex as rx
 from portafolio.components.heading import heading
+from portafolio.components.media import media
 from portafolio.styles.styles import Size
 
 def header() -> rx.Component:
@@ -13,8 +14,8 @@ def header() -> rx.Component:
                 "Localización",
                 display="inherit"                 
             ),
+            media(),
             spacing=Size.SMALL.value
         ),
-        spacing=Size.DEFAULT.value,
-        width="100%"   
+        spacing=Size.DEFAULT.value,  
     )
