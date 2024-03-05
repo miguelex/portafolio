@@ -8,6 +8,6 @@ def footer() -> rx.Component:
     return rx.vstack(
         rx.text("Nombre"),
         media(),
-        spacing=Size.Small.value
+        spacing=Size.SMALL.value
     )
     
