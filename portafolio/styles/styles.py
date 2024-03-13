@@ -1,9 +1,10 @@
 from enum import Enum
 
 MAX_WIDTH = "900px"
+IMAGE_HEIGHT = "200px"
 
 class EmSize(Enum):
-    ZERO = "1em" #16px
+    DEFAULT = "1em" #16px
     MEDIUM = "2em"
     BIG = "4em"
 

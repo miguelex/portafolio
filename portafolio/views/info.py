@@ -7,5 +7,6 @@ def info(title: str) -> rx.Component:
     return rx.vstack(
         heading(title),
         info_detail(),
-        spacing = Size.DEFAULT.value
+        spacing = Size.DEFAULT.value,
+        width="100%"
     )
