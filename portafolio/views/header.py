@@ -18,7 +18,7 @@ def header(data: Data) -> rx.Component:
                 data.location,
                 display="inherit"                 
             ),
-            media(),
+            media(data.media),
             spacing=Size.SMALL.value
         ),
         spacing=Size.DEFAULT.value,  
